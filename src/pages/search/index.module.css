@@ -1,0 +1,9 @@
+.container {
+  margin-top: 15px;
+}
+
+.search {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+}
