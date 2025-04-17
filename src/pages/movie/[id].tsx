@@ -21,7 +21,6 @@ export default function Page({
   movie,
 }: InferGetServerSidePropsType<GetServerSideProps>) {
   const {
-    id,
     title,
     releaseDate,
     company,
