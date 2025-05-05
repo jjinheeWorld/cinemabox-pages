@@ -13,7 +13,7 @@ export default async function fetchMovies(q?: string): Promise<MovieData[]> {
       throw new Error();
     }
 
-    return response.json();
+    return await response.json();
   } catch (err) {
     console.log(err);
     return [];
